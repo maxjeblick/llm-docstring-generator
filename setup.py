@@ -13,7 +13,6 @@ setup(
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: Apache-2.0 license",
         "Programming Language :: Python :: 3.10",
     ],
     install_requires=requirements,
