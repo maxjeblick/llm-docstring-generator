@@ -1,0 +1,7 @@
+[flake8]
+exclude=.cache, .local, output, data, reports
+max-line-length = 160
+# E203, W503 - black-compatible config
+extend-ignore = E203, W503
+
+inline-quotes = "

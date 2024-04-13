@@ -1,0 +1,44 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = "3.11"
+
+[packages]
+astunparse = "==1.6.3"
+tqdm = ">=4.65.0, <5.0.0"
+transformers = "==4.37.1"
+numpy = ">=1.23.2, <2.0.0"
+pandas = ">=2.1.0, <3.0.0"
+scikit-learn = ">=1.0.2, <2.0.0"
+SQLAlchemy = ">=2.0.25, <3.0.0"
+pyarrow = ">=14.0.1"
+fastparquet = ">=2023.7.0"
+openai = "1.12"
+pyvis = "0.3.1"
+loguru="0.7.2"
+python-dotenv="1.0.1"
+code2flow="2.5.1"
+pygraphviz="1.12"
+fire="0.6.0"
+tiktoken="0.6.0"
+
+
+[dev-packages]
+black = "==23.7.0"
+coverage = "==7.2.7"
+flake8 = "==6.1.0"
+flake8-black = "==0.3.6"
+flake8-isort = "==6.0.0"
+isort = "==5.13.2"
+mypy = "==1.4.1"
+pytest = "==7.4.0"
+pytest-sugar = "==1.0.0"
+pytest-cov = "==4.1.0"
+pytest-dependency = "==0.5.1"
+pytest-html = "3.2.0"
+pytest-loguru = "0.4.0"
+types-tqdm = "4.66.0.20240106"
+Faker = "24.1.0"
